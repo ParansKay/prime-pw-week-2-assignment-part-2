@@ -186,12 +186,24 @@ if (temp > 39 && time >= 4); {
 
 /*
 let age = 21;
+// FIX - minAge is described as a variable and not a constant. Therefore it should be written as --> let minAge = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+// FIX - Below, the console.log says 'no entry;. The description asks that the console.log say 'Enter' if the minAGe is equal to or lesser than Age. 
   console.log('no entry');
+// FIX - Because this is an if statement, we need an else component. However, since we have 'enter' displayed if minAge is equal to or lesser than Age, now we need to console.log 'No entry' to account for any other input. 
 } else {
   console.log('enter');
+// FIX - we need a ; at the end of the code --> };
 }
 */
 
+let age = 21;
+let minAge = 21;
+
+if(minAge <= age) {
+  console.log('Enter');
+} else {
+  console.log('No entry');
+};
