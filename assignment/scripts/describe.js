@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//  We make a variable called name and we set it's value to "Dane".
+// Then we create a conditional statement so that if the value of name is equal to "Mary", then the console.log displays "Hi, Mary!
+// If the value of the name is not equal to "Mary", then the console.log displays "How do you do?"
 
 //CODE
 /*
