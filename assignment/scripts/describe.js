@@ -27,8 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 //  We make a variable called name and we set it's value to "Dane".
-// Then we create a conditional statement so that if the value of name is equal to "Mary", then the console.log displays "Hi, Mary!
-// If the value of the name is not equal to "Mary", then the console.log displays "How do you do?"
+// Then we create a conditional statement so that if the value of name is equal to "Mary", then the console.log displays 'Hi, Mary!'
+// If the value of the name is not equal to "Mary", then the console.log displays 'How do you do?'
 
 //CODE
 /*
@@ -135,9 +135,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX - let colorOne = 'red'. The instructions state that variable colorOne is set to blue, therefore the correct synthex would be let colorOne = 'blue'
+// FIX - The instructions state that variable colorOne is set to blue, therefore the correct syntex should be let colorOne = 'blue'
 //let colorOne = 'red';
-// FIX - let colorTwo = 'blue'. The instructions state that variable colorTwo is set to red, therefore the correct synthex would be let colorTwo = 'red'
+// FIX - The instructions state that variable colorTwo is set to red, therefore the correct syntex would be let colorTwo = 'red'
 //let colorTwo = 'blue';
 //let mix = true;
 
@@ -164,7 +164,7 @@ if (mix=== true) {
 
 /*
 let temp = 40;
-// FIX - the description asks for two variables. Below, we can see that time is written as a constant and not a variable. Since it's a variable and not a constant, it needs to be changed to let time = 4;
+// FIX - the description asks for two variables. Below, we can see that time is written as a constant and not a variable. Since it's a variable and not a constant, it needs to be changed to --> let time = 4;
 const time = 4;
 // FIX - The description asks for two conditionals to be considered : temp is higher than 39 AND if time is greater or equal to 4. The synthext below indicates an "OR statement". Instead, it should be written as --> if (temp > 39 && time >= 4) {
 if (temp > 39 || time >= 4) {
@@ -175,7 +175,7 @@ if (temp > 39 || time >= 4) {
 let temp = 40;
 let time = 4;
 
-if (temp > 39 && time >= 4); {
+if (temp > 39 && time >= 4) {
     console.log('throw away the food!');
    };
 
